@@ -1,0 +1,87 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>MyServlet</servlet-name>
+  	<display-name>MyServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.wiley.MyServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Welcome</servlet-name>
+  	<display-name>Welcome</display-name>
+  	<description></description>
+  	<servlet-class>com.wiley.Welcome</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Register</servlet-name>
+  	<display-name>Register</display-name>
+  	<description></description>
+  	<servlet-class>com.wiley.Register</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ViewProductServlet</servlet-name>
+  	<display-name>ViewProductServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.wiley.ViewProductServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ChangePassword</servlet-name>
+  	<display-name>ChangePassword</display-name>
+  	<description></description>
+  	<servlet-class>com.wiley.ChangePassword</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Logout</servlet-name>
+  	<display-name>Logout</display-name>
+  	<description></description>
+  	<servlet-class>com.wiley.Logout</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddToCart</servlet-name>
+  	<display-name>AddToCart</display-name>
+  	<description></description>
+  	<servlet-class>com.wiley.AddToCart</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Checkout</servlet-name>
+  	<display-name>Checkout</display-name>
+  	<description></description>
+  	<servlet-class>com.wiley.Checkout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>MyServlet</servlet-name>
+  	<url-pattern>/MyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Welcome</servlet-name>
+  	<url-pattern>/Welcome</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Register</servlet-name>
+  	<url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ViewProductServlet</servlet-name>
+  	<url-pattern>/ViewProductServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ChangePassword</servlet-name>
+  	<url-pattern>/ChangePassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Logout</servlet-name>
+  	<url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddToCart</servlet-name>
+  	<url-pattern>/AddToCart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Checkout</servlet-name>
+  	<url-pattern>/Checkout</url-pattern>
+  </servlet-mapping>
+</web-app>
